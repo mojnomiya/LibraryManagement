@@ -1,0 +1,19 @@
+Library management
+
+    Library
+        User, Admin, Books
+
+        add_book()
+
+        remove_book()
+
+    Person
+        User(name, email, username)
+            Log in, Log out, Check available books, Borrow books, Return Books
+        Admin(name, email, username)
+            Log in, Log out, add new books, Check available books
+
+    Books
+        name, writer, qty
+
+        
